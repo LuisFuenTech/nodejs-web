@@ -16,11 +16,13 @@ app.use(morgan('dev'));
 //Routes
 app.use(routes);
 
+/*
 app.get('*', (req, res) => {
     res.send(404);
-});
+});*/
 
 //Statid files
+app.use(express.static(path.join(__dirname, 'public')));
 
 //Listening server
 app.listen(app.get('port'), () => {
