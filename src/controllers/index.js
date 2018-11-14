@@ -3,10 +3,15 @@ const index = (req, res) => {
 }
 
 const contact = (req, res) => {
-    res.render('contact', {title: 'Contact page'})
+    res.render('contact', {title: 'Contact'})
+}
+
+const about = (req, res) => {
+    res.render('about', {title: 'About'})
 }
 
 module.exports = {
     index,
-    contact
+    contact,
+    about
 }

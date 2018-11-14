@@ -16,6 +16,10 @@ app.use(morgan('dev'));
 //Routes
 app.use(routes);
 
+app.get('*', (req, res) => {
+    res.send(404);
+});
+
 //Statid files
 
 //Listening server
