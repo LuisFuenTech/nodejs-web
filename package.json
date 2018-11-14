@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-web",
+  "version": "1.0.0",
+  "description": "First web NodeJs\u001b[D\u001b[D \u001b[Js project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+    "dev": "nodemon src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luis Fuentes",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.3.2",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
